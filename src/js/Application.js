@@ -1,6 +1,6 @@
 import EventEmitter from "eventemitter3";
 import Card from "./Card";
-import Notification from "./Notifications";
+import Notification from "./Notification";
 
 export default class Application extends EventEmitter {
   static get events() {
